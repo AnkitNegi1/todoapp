@@ -28,16 +28,6 @@ class TestingModel(TestCase):
     self.assertEqual(tododata.tododescription,tododescription)
     self.assertEqual(tododata.todostatus, "OPEN")
 
-#   def test_delete_product(self):
-#     todotitle = "Gaming"
-#     tododescription = "Recording"
-#     tododate = '2024-12-30'
-#     todostatus = "WORKING"
 
-#     tododata = TodoData.objects.create(todotitle=todotitle, tododescription=tododescription, tododate = tododate, todostatus=todostatus)
-#     tododata.delete()
-#     with self.assertRaises(tododata.DoesNotExist):
-#       # tododata.objects.get(todotitle = "Gaming")
-#       self.assertEqual(tododata.todostatus, "OPEN")
 
 
