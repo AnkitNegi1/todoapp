@@ -1,0 +1,7 @@
+django
+djangorestframework
+flake8
+black
+selenium
+coverage
+psycopg2-binary
